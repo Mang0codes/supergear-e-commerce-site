@@ -6,7 +6,7 @@ interface Config {
     switch (server) {
       case "production":
         config = {
-          baseUrl: "",
+          baseUrl: "https://supergear-e-commerce-site-admin.vercel.app",
         };
         break;
       case "local":
